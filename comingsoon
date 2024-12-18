@@ -1,0 +1,25 @@
+import React from 'react';
+
+function App() {
+  return (
+    <div style={{
+      display: 'flex',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      height: '100vh',
+      textAlign: 'center',
+      backgroundColor: '#f8f9fa',
+      color: '#343a40',
+      fontFamily: 'Arial, sans-serif'
+    }}>
+      <h1 style={{ fontSize: '3rem', margin: '0.5rem' }}>IrishDeathNotice.com</h1>
+      <h2 style={{ fontSize: '2rem', margin: '0.5rem' }}>Coming Soon</h2>
+      <p style={{ fontSize: '1.2rem', marginTop: '1rem' }}>
+        A new platform for Irish death notices and memorials.
+      </p>
+    </div>
+  );
+}
+
+export default App;
